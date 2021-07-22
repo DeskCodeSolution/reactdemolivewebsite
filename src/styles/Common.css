@@ -1,0 +1,68 @@
+/* section {
+    height: 100vh;
+} */
+
+#header {
+    display: flex;
+    background-color: 'red';
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+strong {
+  color: #3498db;
+  /* font-size: 3rem; */
+  font-weight: bold;
+}
+
+.btn {
+  border-color: #3498db;
+  color: #3498db;
+  border-radius: 20px;
+  /* outline: none; */
+}
+
+.btn:hover {
+  background-color: #3498db;
+  /* outline: none; */
+}
+
+/* .header-img {
+    position: fixed;
+} */
+
+/* ------ animation applied by me ------ */
+@keyframes mymove {
+    from {transform: translateY(10px);}
+    to {transform: translateY(-10px);}
+}
+
+.animated {
+    animation: mymove 2s ease-in-out alternate-reverse infinite;
+}
+
+/* --------- Animation ----------
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+} 
+-------------------------------------------
+*/

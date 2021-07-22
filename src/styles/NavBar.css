@@ -8,7 +8,7 @@
 }
 
 .navbar {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .navbar-brand {
@@ -23,9 +23,21 @@
 
 .menu_active {
   font-weight: bold;
-  border-bottom: 1px solid #565387;
+  /* border-bottom: 1px solid #565387; */
+  border-bottom: none;
+  color: #3498db !important;
 }
 
 .navbar a:hover {
-  color: #565387;
+  color: #3498db !important;
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 1.5rem !important;
+    }
+    .menu_active {
+        font-weight: bold;
+        border-bottom: none;
+    }
 }

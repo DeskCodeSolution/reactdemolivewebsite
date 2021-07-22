@@ -1,0 +1,103 @@
+
+/* ------ animation applied by me ------ */
+/* @keyframes mymove {
+    from {transform: translateY(10px);}
+    to {transform: translateY(-10px);}
+} */
+
+.animated {
+    /* animation: mymove 2s ease-in-out alternate-reverse infinite; */
+    display: flex;
+    /* width: auto; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.animation {}
+
+@keyframes my-watch {
+    from {transform: translateX(5px);}
+    to {transform: translateX(-5px);}
+}
+.animate_watch {
+    animation: my-watch 1s ease-in-out alternate-reverse infinite both;
+    position: absolute;
+    /* top: -50px; */
+    /* width: 20px;
+    height: 10px; */
+}
+
+.animate_man {
+    position: absolute;
+    right: 250px;
+    /* left: 100px; */
+}
+
+.animate_board {
+    position: absolute;
+    /* top: -10px; */
+    right: -10px;
+    /* width: 20px;
+    height: 10px; */
+}
+
+.animate_table {
+    position: absolute;
+    bottom: 150px;
+    right: 90px;
+}
+
+.animate_left {
+    position: absolute;
+    bottom: 148px;
+    /* top: 50px; */
+    /* height: 50%; */
+    /* top: -10px;
+    right: -10px; */
+    /* left: -20px */
+    /* width: 20px;
+    height: 10px; */
+}
+
+@keyframes my-right {
+    from {transform: translateX(5px);}
+    to {transform: translateX(-5px);}
+}
+.animate_right {
+    position: absolute;
+    /* top: 41px; */
+    right: 20px;
+    bottom: 149px;
+    /* height: 90%; */
+    /* right: 0; */
+    /* width: 20px;
+    height: 10px; */
+}
+
+
+/* --------- Animation ----------
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+} 
+-------------------------------------------
+*/
